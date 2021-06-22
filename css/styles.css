@@ -1,0 +1,135 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black';
+}
+.coloured-section{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Black';
+    color: #fff;
+}
+.no-colour-section{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold ;
+}
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+}
+.nav-item{
+    padding:0 18px;
+    text-align: right;
+}
+
+.title-heading{
+    /* font-family: 'Montserrat-Black'; */
+    font-size: 4rem;
+    line-height: 6rem;
+    margin: 3rem auto 4rem;
+}
+.title-img{
+    width: 20rem;
+    transform: rotate(25deg);
+    padding-top: 4rem;
+    position: absolute;
+    right:20%
+}
+.fab{
+    margin-right: 10px;
+}
+.btn{
+    margin:0 1rem 0 0;
+}
+.feature-icon{
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+/* .feature-heading{
+    font-family: 'Montserrat-Black';
+} */
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    margin: 1.5rem auto 1.5rem;
+}
+.testimonial-image{
+    width: 8rem;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding:0 15%;
+}
+.press-img{
+    width: 20%;
+    /* margin: 20px 20px 50px; */
+}
+.card{
+    margin:0 20px;
+    width: 300px;
+}
+.price-heading{
+    font-size: 4rem;
+}
+.section-heading{
+    font-size: 3rem;
+}
+.card-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 1.5rem;
+}
+.cta-heading{
+    font-size: 4rem;
+    margin: 0 auto 4rem;
+}
+.social-icon{
+    color: #000;
+    margin: 2rem 1rem;
+}
+.copy{
+    font-size: 1rem;
+    margin: 1rem;
+}
+#title{
+    text-align: left;
+    padding:3% 15% 7%;
+}
+#features{
+    padding:10% 15%;
+    position: relative;
+}
+#testimonials{
+    background-color: #ef8172;
+    padding:5% 0;
+}
+#press{
+    padding-top: 6rem;
+}
+#pricing{
+    padding:8% 10%;
+}
+#cta{
+    padding:8% 10%;
+}
+#footer{
+    padding:8% 10%;
+}
+@media(max-width:1120px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        position: static;
+    }
+}
